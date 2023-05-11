@@ -14,6 +14,11 @@ class CalcTest(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-# To run the test please use: "python -m unittest utest_calc.py" or "python -m unittest -v utest_calc.py" from "Unittest" folder
+# To run the tests you can execute from "Unittest" folder: 
+# python -m unittest
+# python -m unittest utest_calc.py - run tests from module utest_calc.py
+# python -m unittest -v utest_calc.py - extended infirmation
+# python -m unittest utest_calc.CalcTest - tests from class
+# python -m unittest utest_calc.CalcTest.test_sub - run test test_sub
 
 
